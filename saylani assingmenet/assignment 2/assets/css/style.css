@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+body{
+    margin: 0;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .nav-bg{
+    background: #f7f7f7;
+  }
+  .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 1200px)
+  {
+    .container{
+      max-width: 1140px;
+    }
+  }
+  .site-logo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: #004385;
+    margin: 10px 30px 10px 0;
+  }
+  #nav-wrap ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  #nav-wrap ul li{
+    position: relative;
+    display: flex;
+    marign: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  #nav-wrap ul a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    line-height: 32px;
+    padding: 0 15px;
+  }
+  .active{
+    background: #f6f6f6;
+    font-weight: 600;
+  }
+  #nav-wrap ul li:hover{
+    background: #f6f6f6;
+    font-weight: 600;
+    z-index: 1;
+  }
+  #nav-wrap ul ul{
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f6f6f6;
+  }
+  #nav-wrap ul ul li{
+    width: 150px;
+  }
+  #nav-wrap ul ul ul{
+    top: 0;
+    left: 100%;
+    border-left: 1px solid #262626;
+  }
+  #nav-wrap ul li:hover>ul{
+    display: block;
+    font-weight: normal;
+  }
+  .bg-img{
+    background-image: url("../img/bg.jpg");
+    height: 100%;
+    
+  }
+  .bg-img{
+    position: relative;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 5px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    line-height: 40px;
+}
+
+/* Inner-Page */
+
+
+
+.caption.inner {
+  text-align: left;
+  /* background-color: black; */
+  color: #333;
+  line-height: 31px;
+  padding: 20px 30px;
+  font-family: cursive;
+  font-size: 23px;
+  top: 10%;
+}
+  

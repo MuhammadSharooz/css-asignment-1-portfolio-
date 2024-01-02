@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500&display=swap');
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo main div.non-collapsible-section div.search-wrapper div.search-inner-wrapper button.search-handoff-button input.fake-editable 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+    width: 100%;
+   
+}
+#heading{
+    display: flex;
+    margin: 20px;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 156, 230);
+    height: 100px;
+    width: 2500px;
+    border: 1px solid black;
+    align-items: center;
+    flex-direction: column;
+    margin: 3px 3px;
+}
+a{
+    color: #fff;
+}
