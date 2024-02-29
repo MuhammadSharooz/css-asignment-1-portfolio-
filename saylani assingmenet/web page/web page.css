@@ -29,6 +29,7 @@ body{
     justify-content: center;
     height: 60%;
     width: 100%;
+    flex-wrap: wrap;
 }
 .box{
     display: flex;
